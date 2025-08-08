@@ -3,18 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>NMDA Receptor Knowledge</title>
+<title>NMDA Receptor Knowledge - Home</title>
 <style>
   body {
-    margin: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: #e0f2f1;
     color: #004d40;
+    text-align: center;
   }
   header {
     background: linear-gradient(90deg, #00796b, #004d40);
     padding: 20px;
-    text-align: center;
     color: #a7ffeb;
     box-shadow: 0 2px 8px rgba(0,0,0,0.2);
   }
@@ -24,50 +23,31 @@
     font-size: 2.5rem;
   }
   nav {
-    background: #004d40;
+    margin: 30px 0;
     display: flex;
     justify-content: center;
-    gap: 25px;
-    padding: 15px 0;
+    gap: 40px;
   }
   nav a {
+    background: #004d40;
     color: #a7ffeb;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-    padding: 8px 14px;
-    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    border-radius: 8px;
     transition: background 0.3s;
+    display: inline-block;
   }
   nav a:hover {
     background: #00796b;
-    color: #e0f7f5;
   }
   main {
-    max-width: 900px;
-    margin: 30px auto 50px;
+    max-width: 800px;
+    margin: 0 auto 60px;
     padding: 0 20px;
-  }
-  section {
-    margin-bottom: 40px;
-  }
-  h2 {
-    border-bottom: 3px solid #00796b;
-    padding-bottom: 8px;
-    margin-bottom: 20px;
-    color: #004d40;
-    font-weight: 700;
-  }
-  p {
-    line-height: 1.6;
-    font-size: 1.1rem;
-  }
-  footer {
-    text-align: center;
-    padding: 15px 10px;
-    background: #004d40;
-    color: #a7ffeb;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    line-height: 1.8;
   }
 </style>
 </head>
@@ -78,47 +58,18 @@
 </header>
 
 <nav>
-  <a href="#structure">Structure</a>
-  <a href="#function">Function</a>
-  <a href="#pharmacology">Pharmacology</a>
-  <a href="#references">References</a>
+  <a href="#introduction">Introduction</a>
+  <a href="reference.html">Reference</a>
+  <a href="protocol.html">Protocol</a>
+  <a href="summary.html">Summary</a>
 </nav>
 
 <main>
-  <section id="structure">
-    <h2>Structure</h2>
-    <p>
-      NMDA receptors are tetrameric ion channels composed of GluN1 and GluN2 (A-D) subunits. 
-      They have large extracellular ligand-binding domains and transmembrane domains forming the ion pore.
-    </p>
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Welcome to the NMDA Receptor Knowledge Base. This site collects key information, references, protocols, and summaries related to NMDA receptors.</p>
   </section>
-
-  <section id="function">
-    <h2>Function</h2>
-    <p>
-      NMDA receptors mediate calcium influx and are critical for synaptic plasticity, learning, and memory. 
-      Their activation requires binding of glutamate and co-agonists like glycine, along with membrane depolarization.
-    </p>
-  </section>
-
-  <section id="pharmacology">
-    <h2>Pharmacology</h2>
-    <p>
-      NMDA receptor activity can be modulated by endogenous ligands and exogenous drugs such as 
-      ketamine, memantine, and dextromethorphan, which have clinical relevance in anesthesia, neuroprotection, and psychiatry.
-    </p>
-  </section>
-
-  <section id="references">
-  <h2>References</h2>
-  <p>
-    1. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Paoletti+P+Bellone+C+Zhou+Q+2013" target="_blank" rel="noopener noreferrer">
-    Paoletti P, Bellone C, Zhou Q. NMDA receptor subunit diversity: impact on receptor properties, synaptic plasticity, and disease. <em>Nat Rev Neurosci.</em> 2013.</a><br/>
-    2. <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Johnson+JW+Ascher+P+1987+Glycine+potentiates+NMDA+response" target="_blank" rel="noopener noreferrer">
-    Johnson JW, Ascher P. Glycine potentiates the NMDA response in cultured mouse brain neurons. <em>Nature.</em> 1987.</a>
-  </p>
-</section>
-
+</main>
 
 <footer>
   &copy; 2025 NMDA Receptor Knowledge Base
